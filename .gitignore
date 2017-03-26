@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+kiosk-app/apis.json
+bin
+build

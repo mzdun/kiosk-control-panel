@@ -1,0 +1,3 @@
+[submodule "libs/shade"]
+	path = libs/shade
+	url = https://github.com/mzdun/libshade.git
