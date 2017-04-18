@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.4)
 project(kiosk-control-panel CXX)
 
+include(libs/shade/GitDescribe.cmake)
+git_description(TOPLEVEL_VERSION_VCS)
+
 set(TOPLEVEL_VERSION_MAJOR 0)
 set(TOPLEVEL_VERSION_MINOR 1)
 set(TOPLEVEL_VERSION_PATCH 0)
